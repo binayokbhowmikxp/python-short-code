@@ -29,8 +29,8 @@ def write_report(dictionary, report_file):
 
 
 
-employee_list = read_employees('/home/student-02-7ea4d41e1e4d/data/employees.csv')
+employee_list = read_employees('./data/employees.csv')
 
 dictionary = process_data(employee_list)
 
-write_report(dictionary, '/home/student-02-7ea4d41e1e4d/test_report.txt')
+write_report(dictionary, './test_report.txt')
